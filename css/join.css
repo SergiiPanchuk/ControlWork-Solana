@@ -1,0 +1,93 @@
+.join {
+    height: 100vh;
+    background: var(--background);
+    padding-top: 120px;
+}
+
+.join__title h3 {
+    font-family: var(--font-family);
+    font-size: 38px;
+    color: var(--text-color);
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.join__gallery {
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.join__gallery div:nth-child(2) {
+    display: flex;
+    justify-content: right;
+}
+
+.join__gallery_little {
+    width: 17%;
+    height: 45%;
+    text-align: center;
+}
+
+.join__gallery_big {
+    width: 34%;
+    height: 95%;
+}
+
+.join__gallery_height {
+    width: 17%;
+    height: 95%;
+}
+
+.join__gallery div:nth-child(3) {
+   background-image: url("../img/IMAGE2.png");
+}
+.join__gallery div:nth-child(6) {
+    background-image: url("../img/IMAGE4.png");
+}
+.join__gallery div:nth-child(8) {
+    background-image: url("../img/IMAGE5.png");
+}
+
+.join__gallery span {
+    font-family: var(--font-family);
+    font-size: 37px;
+    color: #F087FF;
+    text-align: center;
+}
+
+.join__gallery p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: var(--link-color);
+    text-transform: uppercase;
+}
+
+.join__gallery img {
+    max-width: 100%; /* Забезпечує пропорційне масштабування по ширині */
+    max-height: 100%;
+}
+
+.join__gallery_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.join__gallery_text p {
+    margin: 120px auto 15px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 38px;
+    color: var(--text-color);
+    max-width: 740px;
+}
+
+.join__gallery_text button {
+    margin: 0 auto;
+}
